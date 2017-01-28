@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0415931E3D220500A5EC9B /* CoremotionexampleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0415921E3D220500A5EC9B /* CoremotionexampleTableVC.swift */; };
+		BE0415951E3D244B00A5EC9B /* GravityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0415941E3D244B00A5EC9B /* GravityViewController.swift */; };
+		BE0415981E3D2B0400A5EC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0415961E3D2B0400A5EC9B /* Main.storyboard */; };
+		BE04159A1E3D2F1100A5EC9B /* CompassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0415991E3D2F1100A5EC9B /* CompassVC.swift */; };
+		BE04159C1E3D2F9300A5EC9B /* compass.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BE04159B1E3D2F9300A5EC9B /* compass.jpeg */; };
+		BE2D587D1E3CFA280028D8F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D587C1E3CFA280028D8F2 /* AppDelegate.swift */; };
+		BE2D587F1E3CFA280028D8F2 /* AcclerometerRawDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D587E1E3CFA280028D8F2 /* AcclerometerRawDataVC.swift */; };
+		BE2D58841E3CFA280028D8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2D58831E3CFA280028D8F2 /* Assets.xcassets */; };
+		BE2D58871E3CFA280028D8F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2D58851E3CFA280028D8F2 /* LaunchScreen.storyboard */; };
+		BE2D58921E3CFA280028D8F2 /* Accelerometer_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D58911E3CFA280028D8F2 /* Accelerometer_ExampleTests.swift */; };
+		BE2D589D1E3CFA280028D8F2 /* Accelerometer_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D589C1E3CFA280028D8F2 /* Accelerometer_ExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE2D588E1E3CFA280028D8F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2D58711E3CFA280028D8F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2D58781E3CFA280028D8F2;
+			remoteInfo = "Accelerometer-Example";
+		};
+		BE2D58991E3CFA280028D8F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2D58711E3CFA280028D8F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2D58781E3CFA280028D8F2;
+			remoteInfo = "Accelerometer-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE0415921E3D220500A5EC9B /* CoremotionexampleTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoremotionexampleTableVC.swift; sourceTree = "<group>"; };
+		BE0415941E3D244B00A5EC9B /* GravityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravityViewController.swift; sourceTree = "<group>"; };
+		BE0415971E3D2B0400A5EC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE0415991E3D2F1100A5EC9B /* CompassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassVC.swift; sourceTree = "<group>"; };
+		BE04159B1E3D2F9300A5EC9B /* compass.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = compass.jpeg; sourceTree = "<group>"; };
+		BE2D58791E3CFA280028D8F2 /* Accelerometer-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accelerometer-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2D587C1E3CFA280028D8F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE2D587E1E3CFA280028D8F2 /* AcclerometerRawDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcclerometerRawDataVC.swift; sourceTree = "<group>"; };
+		BE2D58831E3CFA280028D8F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE2D58861E3CFA280028D8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE2D58881E3CFA280028D8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2D588D1E3CFA280028D8F2 /* Accelerometer-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Accelerometer-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2D58911E3CFA280028D8F2 /* Accelerometer_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer_ExampleTests.swift; sourceTree = "<group>"; };
+		BE2D58931E3CFA280028D8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2D58981E3CFA280028D8F2 /* Accelerometer-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Accelerometer-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2D589C1E3CFA280028D8F2 /* Accelerometer_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer_ExampleUITests.swift; sourceTree = "<group>"; };
+		BE2D589E1E3CFA290028D8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE2D58761E3CFA280028D8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2D588A1E3CFA280028D8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2D58951E3CFA280028D8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE2D58701E3CFA280028D8F2 = {
+			isa = PBXGroup;
+			children = (
+				BE2D587B1E3CFA280028D8F2 /* Accelerometer-Example */,
+				BE2D58901E3CFA280028D8F2 /* Accelerometer-ExampleTests */,
+				BE2D589B1E3CFA280028D8F2 /* Accelerometer-ExampleUITests */,
+				BE2D587A1E3CFA280028D8F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2D587A1E3CFA280028D8F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D58791E3CFA280028D8F2 /* Accelerometer-Example.app */,
+				BE2D588D1E3CFA280028D8F2 /* Accelerometer-ExampleTests.xctest */,
+				BE2D58981E3CFA280028D8F2 /* Accelerometer-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2D587B1E3CFA280028D8F2 /* Accelerometer-Example */ = {
+			isa = PBXGroup;
+			children = (
+				BE04159B1E3D2F9300A5EC9B /* compass.jpeg */,
+				BE2D587C1E3CFA280028D8F2 /* AppDelegate.swift */,
+				BE2D587E1E3CFA280028D8F2 /* AcclerometerRawDataVC.swift */,
+				BE0415941E3D244B00A5EC9B /* GravityViewController.swift */,
+				BE0415991E3D2F1100A5EC9B /* CompassVC.swift */,
+				BE0415921E3D220500A5EC9B /* CoremotionexampleTableVC.swift */,
+				BE2D58831E3CFA280028D8F2 /* Assets.xcassets */,
+				BE2D58851E3CFA280028D8F2 /* LaunchScreen.storyboard */,
+				BE0415961E3D2B0400A5EC9B /* Main.storyboard */,
+				BE2D58881E3CFA280028D8F2 /* Info.plist */,
+			);
+			path = "Accelerometer-Example";
+			sourceTree = "<group>";
+		};
+		BE2D58901E3CFA280028D8F2 /* Accelerometer-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D58911E3CFA280028D8F2 /* Accelerometer_ExampleTests.swift */,
+				BE2D58931E3CFA280028D8F2 /* Info.plist */,
+			);
+			path = "Accelerometer-ExampleTests";
+			sourceTree = "<group>";
+		};
+		BE2D589B1E3CFA280028D8F2 /* Accelerometer-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D589C1E3CFA280028D8F2 /* Accelerometer_ExampleUITests.swift */,
+				BE2D589E1E3CFA290028D8F2 /* Info.plist */,
+			);
+			path = "Accelerometer-ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2D58781E3CFA280028D8F2 /* Accelerometer-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2D58A11E3CFA290028D8F2 /* Build configuration list for PBXNativeTarget "Accelerometer-Example" */;
+			buildPhases = (
+				BE2D58751E3CFA280028D8F2 /* Sources */,
+				BE2D58761E3CFA280028D8F2 /* Frameworks */,
+				BE2D58771E3CFA280028D8F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Accelerometer-Example";
+			productName = "Accelerometer-Example";
+			productReference = BE2D58791E3CFA280028D8F2 /* Accelerometer-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE2D588C1E3CFA280028D8F2 /* Accelerometer-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2D58A41E3CFA290028D8F2 /* Build configuration list for PBXNativeTarget "Accelerometer-ExampleTests" */;
+			buildPhases = (
+				BE2D58891E3CFA280028D8F2 /* Sources */,
+				BE2D588A1E3CFA280028D8F2 /* Frameworks */,
+				BE2D588B1E3CFA280028D8F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2D588F1E3CFA280028D8F2 /* PBXTargetDependency */,
+			);
+			name = "Accelerometer-ExampleTests";
+			productName = "Accelerometer-ExampleTests";
+			productReference = BE2D588D1E3CFA280028D8F2 /* Accelerometer-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE2D58971E3CFA280028D8F2 /* Accelerometer-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2D58A71E3CFA290028D8F2 /* Build configuration list for PBXNativeTarget "Accelerometer-ExampleUITests" */;
+			buildPhases = (
+				BE2D58941E3CFA280028D8F2 /* Sources */,
+				BE2D58951E3CFA280028D8F2 /* Frameworks */,
+				BE2D58961E3CFA280028D8F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2D589A1E3CFA280028D8F2 /* PBXTargetDependency */,
+			);
+			name = "Accelerometer-ExampleUITests";
+			productName = "Accelerometer-ExampleUITests";
+			productReference = BE2D58981E3CFA280028D8F2 /* Accelerometer-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE2D58711E3CFA280028D8F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ben Smith";
+				TargetAttributes = {
+					BE2D58781E3CFA280028D8F2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CWK29L7ZPT;
+						ProvisioningStyle = Automatic;
+					};
+					BE2D588C1E3CFA280028D8F2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE2D58781E3CFA280028D8F2;
+					};
+					BE2D58971E3CFA280028D8F2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE2D58781E3CFA280028D8F2;
+					};
+				};
+			};
+			buildConfigurationList = BE2D58741E3CFA280028D8F2 /* Build configuration list for PBXProject "Accelerometer-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE2D58701E3CFA280028D8F2;
+			productRefGroup = BE2D587A1E3CFA280028D8F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2D58781E3CFA280028D8F2 /* Accelerometer-Example */,
+				BE2D588C1E3CFA280028D8F2 /* Accelerometer-ExampleTests */,
+				BE2D58971E3CFA280028D8F2 /* Accelerometer-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2D58771E3CFA280028D8F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0415981E3D2B0400A5EC9B /* Main.storyboard in Resources */,
+				BE2D58871E3CFA280028D8F2 /* LaunchScreen.storyboard in Resources */,
+				BE04159C1E3D2F9300A5EC9B /* compass.jpeg in Resources */,
+				BE2D58841E3CFA280028D8F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2D588B1E3CFA280028D8F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2D58961E3CFA280028D8F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE2D58751E3CFA280028D8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE04159A1E3D2F1100A5EC9B /* CompassVC.swift in Sources */,
+				BE0415931E3D220500A5EC9B /* CoremotionexampleTableVC.swift in Sources */,
+				BE2D587F1E3CFA280028D8F2 /* AcclerometerRawDataVC.swift in Sources */,
+				BE2D587D1E3CFA280028D8F2 /* AppDelegate.swift in Sources */,
+				BE0415951E3D244B00A5EC9B /* GravityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2D58891E3CFA280028D8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2D58921E3CFA280028D8F2 /* Accelerometer_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2D58941E3CFA280028D8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2D589D1E3CFA280028D8F2 /* Accelerometer_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE2D588F1E3CFA280028D8F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2D58781E3CFA280028D8F2 /* Accelerometer-Example */;
+			targetProxy = BE2D588E1E3CFA280028D8F2 /* PBXContainerItemProxy */;
+		};
+		BE2D589A1E3CFA280028D8F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2D58781E3CFA280028D8F2 /* Accelerometer-Example */;
+			targetProxy = BE2D58991E3CFA280028D8F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE0415961E3D2B0400A5EC9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0415971E3D2B0400A5EC9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE2D58851E3CFA280028D8F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2D58861E3CFA280028D8F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE2D589F1E3CFA290028D8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE2D58A01E3CFA290028D8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE2D58A21E3CFA290028D8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "Accelerometer-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Accelerometer-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE2D58A31E3CFA290028D8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CWK29L7ZPT;
+				INFOPLIST_FILE = "Accelerometer-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Accelerometer-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE2D58A51E3CFA290028D8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Accelerometer-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Accelerometer-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelerometer-Example.app/Accelerometer-Example";
+			};
+			name = Debug;
+		};
+		BE2D58A61E3CFA290028D8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Accelerometer-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Accelerometer-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelerometer-Example.app/Accelerometer-Example";
+			};
+			name = Release;
+		};
+		BE2D58A81E3CFA290028D8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Accelerometer-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Accelerometer-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Accelerometer-Example";
+			};
+			name = Debug;
+		};
+		BE2D58A91E3CFA290028D8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Accelerometer-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Accelerometer-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Accelerometer-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2D58741E3CFA280028D8F2 /* Build configuration list for PBXProject "Accelerometer-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2D589F1E3CFA290028D8F2 /* Debug */,
+				BE2D58A01E3CFA290028D8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2D58A11E3CFA290028D8F2 /* Build configuration list for PBXNativeTarget "Accelerometer-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2D58A21E3CFA290028D8F2 /* Debug */,
+				BE2D58A31E3CFA290028D8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2D58A41E3CFA290028D8F2 /* Build configuration list for PBXNativeTarget "Accelerometer-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2D58A51E3CFA290028D8F2 /* Debug */,
+				BE2D58A61E3CFA290028D8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2D58A71E3CFA290028D8F2 /* Build configuration list for PBXNativeTarget "Accelerometer-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2D58A81E3CFA290028D8F2 /* Debug */,
+				BE2D58A91E3CFA290028D8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2D58711E3CFA280028D8F2 /* Project object */;
+}
